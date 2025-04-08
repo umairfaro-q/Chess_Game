@@ -1,5 +1,6 @@
 # Chess_Game
 First Semester ICT Project 
+
 Game with 5-levels of difficulty against the system on web using HTML, CSS, JS and jQuery.
 
 ![Screenshot 2025-04-08 092302](https://github.com/user-attachments/assets/07f67a41-db87-4420-a3b0-2c0b09aaecde)
