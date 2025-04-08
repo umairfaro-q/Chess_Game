@@ -1,0 +1,41 @@
+
+.board {
+    width: 500px;
+   margin-top: 40px; 
+  margin-left: auto ; 
+   margin-right: 450px;  
+}
+.info {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 250px;
+  margin-left : auto; 
+}
+.info1 {
+  position: absolute;
+  right: 60px;
+  top: 50px;
+  width: 250px;
+  margin-right : auto;}
+.move-history {
+    width: 240px;
+    max-height: 300px;
+    overflow-y: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="board"] {
+   margin-top: 350px;    
+}
+[class="info"] {
+  margin-top: -20px;
+}
+  [class*="info1"] {
+  margin-top: 900px;
+  }
+}
+
+   

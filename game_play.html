@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	 <title>Chess</title>
+    <link rel="stylesheet" href="css/chessboard.css">
+    <link rel="stylesheet" href="css/game_play.css">
+	<link rel="stylesheet" href="css/sign_in_up.css">
+	
+</head>
+<body>
+<div style="background-image:">
+	<div id="board" class="board"></div>
+	<div >
+		
+    </div>
+	<div style="font-size:20px " class="info">
+		<center>
+		<a style="font-size:16px ; border:2px solid #000000; border-radius: 2px 15px ; background-color: #ffffff ; color:red"  href="game_play.html" >&nbsp;&nbsp; Start Again &nbsp;&nbsp;</a>
+		</center>
+		<br>
+		<div  style=" border: 5px solid #ffffff ;border-radius: 25px ; background-color: #ffffff " >
+			<h2 class="form-title" style="font-size:22px ;  border: 2px solid #52b2bf ;border-radius: 25px ; background-color: #eaf0fb" align="center" >Dificulty Level<br>
+				<select style="font-size:18px ;border:1px solid #2e1503; border-radius: 5px 5px ;background-color: #fee3e2 "  id="search-depth">
+					<option value="1">&nbsp;1. &nbsp; New to Chess &nbsp;</option>
+					<option value="2">&nbsp;2. &nbsp; Beginner &nbsp;</option>
+					<option value="3" selected>&nbsp;3. &nbsp; Intermediate &nbsp;</option>
+					<option value="4">&nbsp;4. &nbsp; Master &nbsp;</option>
+					<option value="5">&nbsp;5. &nbsp; Grand-Master &nbsp;</option>
+				</select><br>
+			</h2> 
+			<div style="font-size:16px">
+				<span >Positions evaluated: &nbsp;&nbsp;
+					<span style="font-size:14px" id="position-count"></span>
+				</span><br>
+				<span >Time: &nbsp;&nbsp;
+					<span style="font-size:14px" id="time"></span>
+				</span><br>
+				<span >Positions/s:	&nbsp;
+					<span style="font-size:14px" id="positions-per-s"></span>
+				</span>
+			</div><br>
+		</div>
+	</div>
+	<div  class="info1">
+		<h2   style="font-size:22px ; border: 5px solid #ffffff ;border-radius: 25px; background-color: #ffffff " align="center"> Moves' History</h2>
+		<div  style="font-size:18px ;border: 1px solid #52b2bf; background-color: #eaf0fb "  id="move-history" class="move-history"></div>
+	</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/chess_script.js"></script>
+<script src="js/chessboard.js"></script>
+<script src="js/chess_ai_script.js"></script>
+<script>
+
+</script>
+</body>
+</html>
